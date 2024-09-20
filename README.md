@@ -16,6 +16,14 @@
 
 This repository is a tool for automating end-to-end (e2e) testing of [microservice-app-example](https://github.com/elgris/microservice-app-example) product using [Playwright](https://playwright.dev/docs/intro).
 
+The [tests](/e2e/tests) directory contains the tests. By their names we can understand what they contain:
+- [auth.setup.ts](/e2e/tests/auth.setup.ts) is a file for pre-logging and saving the user's state to reduce test execution time;
+- [login.spec.ts](/e2e/tests/login.spec.ts) is test cases related to logging;
+- [logs.spec.ts](/e2e/tests/logs.spec.ts) are test cases to test logs in the event logging service;
+- [todo.spec.ts](/e2e/tests/todo.spec.ts) are test cases for testing the creation and deletion of tasks.
+
+The [Pages](/e2e/Pages) directory contains the test steps for each test case file.
+
 ## Setting Playwright options
 
 All parameters for running tests are located in the [playwright config file](playwright.config.ts).
