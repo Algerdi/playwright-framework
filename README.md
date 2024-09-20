@@ -1,4 +1,4 @@
-# playwright-playwright-framework
+# playwright-framework
 
 ## Table of Contents
 
