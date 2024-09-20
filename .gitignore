@@ -1,0 +1,10 @@
+# Users Environment Variables
+.lock-wscript
+.env
+.env.sh
+
+node_modules/
+/playwright/.auth
+/test-results/
+/playwright-report/
+/playwright/.cache/

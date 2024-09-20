@@ -1,0 +1,23 @@
+{
+    "model": "User",
+    "data": {
+        "admin": {
+            "data": {
+                "username": "admin",
+                "password": "admin"
+            }
+        },
+        "johnd": {
+            "data": {
+                "username": "johnd",
+                "password": "foo"
+            }
+        },
+        "janed": {
+            "data": {
+                "username": "janed",
+                "password": "ddd"
+            }
+        }
+    }
+}
